@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Solved | Login</title>
+  <style>
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f8e1f4, #e3c8fa);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+   
+    .login-container {
+      background: #fff;
+      width: 350px;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+  
+    .logo {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #7b2cbf;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    .logo span {
+      color: #ff66b3;
+      font-weight: bold;
+    }
+
+    .tagline {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 25px;
+      font-style: italic;
+    }
+
+   
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      border-color: #7b2cbf;
+      box-shadow: 0 0 5px rgba(123, 44, 191, 0.3);
+    }
+
+    button {
+      background: linear-gradient(135deg, #7b2cbf, #b36bff);
+      border: none;
+      color: white;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+    }
+
+    .links {
+      margin-top: 15px;
+      font-size: 0.85rem;
+    }
+
+    .links a {
+      color: #7b2cbf;
+      text-decoration: none;
+      margin: 0 5px;
+      transition: color 0.2s;
+    }
+
+    .links a:hover {
+      color: #b36bff;
+    }
+
+   
+    .footer {
+      margin-top: 25px;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="logo">$$ Stay <span>Solved</span></div>
+    <div class="tagline">Your style, your solution 👗</div>
+
+    <form>
+      <input type="email" placeholder="Enter Email" required>
+      <input type="password" placeholder="Enter Password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <div class="links">
+      <a href="#">Forgot Password?</a> | 
+      <a href="#">Create Account</a>
+    </div>
+
+    <div class="footer">© 2025 Stay Solved Fashion</div>
+  </div>
+
+</body>
+</html>
